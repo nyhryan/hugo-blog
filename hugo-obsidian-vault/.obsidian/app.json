@@ -1,0 +1,9 @@
+{
+  "useMarkdownLinks": true,
+  "newLinkFormat": "absolute",
+  "attachmentFolderPath": "attachments",
+  "showInlineTitle": false,
+  "spellcheck": false,
+  "livePreview": false,
+  "promptDelete": false
+}

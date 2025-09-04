@@ -1,0 +1,12 @@
+{
+  "monospaceFontFamily": "Consolas,Cascadia Code",
+  "showViewHeader": true,
+  "showRibbon": true,
+  "interfaceFontFamily": "Cascadia Mono",
+  "textFontFamily": "Cascadia Mono",
+  "baseFontSizeAction": true,
+  "cssTheme": "AnuPpuccin",
+  "enabledCssSnippets": [
+    "prismjs-latte"
+  ]
+}

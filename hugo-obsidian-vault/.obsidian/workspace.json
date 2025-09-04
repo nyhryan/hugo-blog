@@ -1,0 +1,222 @@
+{
+  "main": {
+    "id": "41be169c5419346f",
+    "type": "split",
+    "children": [
+      {
+        "id": "b4fe04e38703ee49",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3dea92bc81b552bf",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e970bf8b060367d1",
+    "type": "split",
+    "children": [
+      {
+        "id": "5697c9d199381b59",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "35107a62f46e8f63",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "12209a175de668e5",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "958a0355b8b6eb5d",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "2ecbf93cd5e7b58b",
+    "type": "split",
+    "children": [
+      {
+        "id": "cee8248c7c53cc62",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "06bed5992097a921",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "🦊-hugo-blog/posts/hugo/write-a-blog-with-hugo-and-obsidian/index.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for index"
+            }
+          },
+          {
+            "id": "1ce238834240cdb9",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "hugo-blog/posts/my-first-post/index.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from index"
+            }
+          },
+          {
+            "id": "af79a5ed2600ae93",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "b80d1f3e09dd1bb0",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "hugo-blog/posts/my-first-post/index.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of index"
+            }
+          },
+          {
+            "id": "fc3bb411e9953711",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "templater-obsidian:Templater": false
+    }
+  },
+  "active": "35107a62f46e8f63",
+  "lastOpenFiles": [
+    "🦊-hugo-blog/posts/hugo/write-a-blog-with-hugo-and-obsidian/index.md",
+    "⚓-templates/00-new-hugo-post.md",
+    "🦊-hugo-blog/about.md",
+    "🦊-hugo-blog/posts/hugo/write-a-blog-with-hugo-and-obsidian",
+    "🦊-hugo-blog/posts/hugo",
+    "🦊-hugo-blog/posts",
+    "🦊-hugo-blog",
+    "attachments/Pasted image 20250824182242.png",
+    "attachments/Pasted image 20250824182120.png",
+    "attachments/Obsidian_x8FXpjDci6.png",
+    "attachments/Obsidian_ZIy6HuS2Ti.png",
+    "attachments/Obsidian_FakraXQdCq.png",
+    "attachments/MiXgu5xYnD.png",
+    "attachments",
+    "🦊-hugo-blog/posts/hugo/write-a-blog-with-hugo-and-obsidian/attachments/Pasted image 20250824182242.png",
+    "🦊-hugo-blog/posts/hugo/write-a-blog-with-hugo-and-obsidian/attachments/Pasted image 20250824182120.png",
+    "새 폴더",
+    "🦊-hugo-blog/posts/hello/index.md",
+    "🦊-hugo-blog/posts/hello",
+    "20-🦊-hugo-blog/posts/hello",
+    "20-🦊-hugo-blog/posts",
+    "20-🦊-hugo-blog",
+    "20-🦊-hugo-blog/tags.md",
+    "🦊-hugo-blog/posts/hugo/write-a-blog-with-hugo-and-obsidian/attachments/MiXgu5xYnD.png",
+    "🦊-hugo-blog/posts/hugo/write-a-blog-with-hugo-and-obsidian/attachments/Obsidian_FakraXQdCq.png",
+    "20-🦊-hugo-blog/posts/Untitled.md",
+    "20-🦊-hugo-blog/posts/new-post/index.md",
+    "20-🦊-hugo-blog/.md",
+    "20-🦊-hugo-blog/posts/hello-123-world/index.md",
+    "20-🦊-hugo-blog/posts/hello-123/index.md",
+    "20-🦊-hugo-blog/posts/hello-world/index.md",
+    "20-🦊-hugo-blog/posts/new-test-note/index.md",
+    "hugo-blog/posts/my-first-post/index.md",
+    "20-🦊-hugo-blog/posts/my-first-post/index.md",
+    "Welcome.md"
+  ]
+}
