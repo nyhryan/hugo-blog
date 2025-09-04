@@ -122,11 +122,11 @@ Create a new template file. Using this template, we can create a new blog post d
 
 Use `Create new note from template` and select the template you've just created to write a new blog post.
 
-![](/attachments/Obsidian_FakraXQdCq.png)
+![](attachments/Obsidian_FakraXQdCq.png)
 
 Obsidian will prompt a new title. This is what `tp.system.prompt(...)` does!
 
-![](/attachments/Obsidian_ZIy6HuS2Ti.png)
+![](attachments/Obsidian_ZIy6HuS2Ti.png)
 
 Pressing enter will create a new directory and `index.md` inside.
 
@@ -134,14 +134,14 @@ Pressing enter will create a new directory and `index.md` inside.
 
 ## 4. Attaching images
 
-![](/attachments/Pasted%20image%2020250824182120.png)
+![](attachments/Pasted%20image%2020250824182120.png)
 
 Under Obsidian settings, go to `File and links` and you will find the setting above. Changing this will create `attachments` folder inside each new blog post directory.
 
-![](/attachments/Pasted%20image%2020250824182242.png)
+![](attachments/Pasted%20image%2020250824182242.png)
 
 Also set `New link format` to `Relative path to file` so that the link to the images will be like `attachments/image_name.png`.
 
-![](/attachments/MiXgu5xYnD.png)
+![](attachments/MiXgu5xYnD.png)
 
 Attachments will be living under the same post's directory now.
