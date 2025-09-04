@@ -1,0 +1,121 @@
+baseURL: https://nyhryan.github.io/
+defaultContentLanguage: ko
+languageCode: ko-KR
+title: ATAI's Blog
+theme: terminal
+
+security:
+  exec:
+    allow:
+      - ^(dart-)?sass(-embedded)?$
+      - ^go$
+      - ^git$
+      - ^npx$
+      - ^postcss$
+      - ^tailwindcss$
+      - ^code$
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  ### `Terminal` theme settings ###
+  highlight:
+    style: catppuccin-frappe
+    noClasses: false
+
+module:
+  imports:
+    - path: github.com/panr/hugo-theme-terminal/v4
+  replacements: "github.com/panr/hugo-theme-terminal/v4 -> terminal"
+  mounts:
+    - source: attachments
+      target: static/attachments
+
+params:
+  contentTypeName: posts
+  showMenuItems: 2
+  showLanguageSelector: false
+  fullWidthTheme: false
+  centerTheme: true
+  autoCover: true
+  showLastUpdated: false
+  Toc: true
+  twitter:
+    creator: ""
+    site: ""
+
+languages:
+  en:
+    languageName: English
+    title: ATAI's Blog
+    params:
+      subtitle: A simple, retro theme for Hugo
+      owner: ""
+      keywords: ""
+      copyright: ""
+      menuMore: Show more
+      readMore: Read more
+      readOtherPosts: Read other posts
+      newerPosts: Newer posts
+      olderPosts: Older posts
+      missingContentMessage: Page not found...
+      missingBackButtonLabel: Back to home page
+      minuteReadingTime: min read
+      words: words
+      logo:
+        logoText: Home
+        logoHomeLink: /
+    menu:
+      main:
+        - identifier: about
+          name: About
+          url: /about
+        - identifier: showcase
+          name: Showcase
+          url: /showcase
+        - identifier: categories
+          name: Categories
+          url: /categories
+        - identifier: tags
+          name: Tags
+          url: /tags
+  ko:
+    languageCode: ko-KR
+    languageName: 한국어
+    title: ATAI's Blog
+    params:
+      subtitle: Hugo의 심플한 복고풍 테마
+      owner: ""
+      keywords: ""
+      copyright: ""
+      menuMore: 더보기
+      readMore: 더 읽기
+      readOtherPosts: 다른 글 읽기
+      newerPosts: 최신 글
+      olderPosts: 이전 글
+      missingContentMessage: 페이지를 찾을 수 없습니다...
+      missingBackButtonLabel: 홈페이지로 돌아가기
+      minuteReadingTime: 분 소요
+      words: 단어
+      logo:
+        logoText: 홈
+        logoHomeLink: /
+    menu:
+      main:
+        - identifier: about
+          name: 소개
+          url: /about
+        - identifier: showcase
+          name: 쇼케이스
+          url: /showcase
+        - identifier: categories
+          name: 카테고리
+          url: /categories
+        - identifier: tags
+          name: 태그
+          url: /tags
+
+caches:
+  images:
+    dir: :cacheDir/images

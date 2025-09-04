@@ -1,0 +1,17 @@
+name: hugo-blog
+
+services:
+  build:
+    image: hugomods/hugo:exts-non-root
+    command: build
+    volumes:
+      - "./:/src"
+
+  serve:
+    image: hugomods/hugo:exts-non-root
+    command: server --poll 1000ms --buildDrafts --noHTTPCache --renderToMemory -p 13130
+    volumes:
+     - "./:/src"
+     - "~/hugo_cache:/tmp/hugo_cache"
+    ports:
+     - "13130:13130"
