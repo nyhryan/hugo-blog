@@ -3,13 +3,15 @@ name: hugo-blog
 services:
   build:
     image: hugomods/hugo:exts-non-root
-    command: build
+    command: build --minify --gc
     volumes:
       - "./:/src"
 
   serve:
     image: hugomods/hugo:exts-non-root
-    command: server --poll 1000ms --buildDrafts --noHTTPCache --renderToMemory -p 13130 --baseURL http://localhost/
+    command: >-
+      server --poll 1000ms --buildDrafts --noHTTPCache --renderToMemory
+             --baseURL http://127.0.0.1 --port 13130 
     volumes:
      - "./:/src"
      - "~/hugo_cache:/tmp/hugo_cache"

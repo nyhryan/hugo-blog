@@ -1,7 +1,0 @@
-<p>
-  <img 
-    src="{{ .Page.Site.BaseURL }}{{ .Destination | safeURL }}"
-    {{- with .PlainText }} alt="{{ . }}"{{ end -}}
-    {{- with .Title }} title="{{ . }}"{{ end -}}
-  >
-</p>

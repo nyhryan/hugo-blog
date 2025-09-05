@@ -11,10 +11,10 @@
             "id": "3dea92bc81b552bf",
             "type": "leaf",
             "state": {
-              "type": "empty",
+              "type": "graph",
               "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -181,24 +181,26 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "35107a62f46e8f63",
+  "active": "3dea92bc81b552bf",
   "lastOpenFiles": [
-    "🦊-hugo-blog/posts/hugo/write-a-blog-with-hugo-and-obsidian/index.md",
+    "attachments/Pasted image 20250824182242.png",
+    "attachments/Obsidian_ZIy6HuS2Ti.png",
+    "🦊-hugo-blog/posts/hugo/write-a-blog-with-hugo-and-obsidian.md",
+    "attachments/Pasted image 20250905023303.png",
+    "attachments/Pasted image 20250905023300.png",
+    "attachments/Pasted image 20250904235711.png",
     "⚓-templates/00-new-hugo-post.md",
+    "attachments/Pasted image 20250905011121.png",
+    "attachments/Pasted image 20250904233946.png",
+    "attachments/Pasted image 20250904233638.png",
+    "attachments/Pasted image 20250824182120.png",
+    "attachments/Obsidian_x8FXpjDci6.png",
+    "attachments",
     "🦊-hugo-blog/about.md",
     "🦊-hugo-blog/posts/hugo/write-a-blog-with-hugo-and-obsidian",
     "🦊-hugo-blog/posts/hugo",
     "🦊-hugo-blog/posts",
     "🦊-hugo-blog",
-    "attachments/Pasted image 20250824182242.png",
-    "attachments/Pasted image 20250824182120.png",
-    "attachments/Obsidian_x8FXpjDci6.png",
-    "attachments/Obsidian_ZIy6HuS2Ti.png",
-    "attachments/Obsidian_FakraXQdCq.png",
-    "attachments/MiXgu5xYnD.png",
-    "attachments",
-    "🦊-hugo-blog/posts/hugo/write-a-blog-with-hugo-and-obsidian/attachments/Pasted image 20250824182242.png",
-    "🦊-hugo-blog/posts/hugo/write-a-blog-with-hugo-and-obsidian/attachments/Pasted image 20250824182120.png",
     "새 폴더",
     "🦊-hugo-blog/posts/hello/index.md",
     "🦊-hugo-blog/posts/hello",
@@ -206,8 +208,6 @@
     "20-🦊-hugo-blog/posts",
     "20-🦊-hugo-blog",
     "20-🦊-hugo-blog/tags.md",
-    "🦊-hugo-blog/posts/hugo/write-a-blog-with-hugo-and-obsidian/attachments/MiXgu5xYnD.png",
-    "🦊-hugo-blog/posts/hugo/write-a-blog-with-hugo-and-obsidian/attachments/Obsidian_FakraXQdCq.png",
     "20-🦊-hugo-blog/posts/Untitled.md",
     "20-🦊-hugo-blog/posts/new-post/index.md",
     "20-🦊-hugo-blog/.md",

@@ -1,383 +1,156 @@
+/* Placeholder file for your custom settings. */
+/* You can get the color scheme variables from https://panr.github.io/terminal-css/ */
+
 :root {
-  --background: #292c3c;
-  --foreground: #c6d0f5;
-  --accent: #81c8be;
+  --ctp-frappe-rosewater: #f2d5cf;
+  --ctp-frappe-rosewater-rgb: 242 213 207;
+  --ctp-frappe-rosewater-hsl: 10.286 57.377% 88.039%;
+  --ctp-frappe-flamingo: #eebebe;
+  --ctp-frappe-flamingo-rgb: 238 190 190;
+  --ctp-frappe-flamingo-hsl: 0.000 58.537% 83.922%;
+  --ctp-frappe-pink: #f4b8e4;
+  --ctp-frappe-pink-rgb: 244 184 228;
+  --ctp-frappe-pink-hsl: 316.000 73.171% 83.922%;
+  --ctp-frappe-mauve: #ca9ee6;
+  --ctp-frappe-mauve-rgb: 202 158 230;
+  --ctp-frappe-mauve-hsl: 276.667 59.016% 76.078%;
+  --ctp-frappe-red: #e78284;
+  --ctp-frappe-red-rgb: 231 130 132;
+  --ctp-frappe-red-hsl: 358.812 67.785% 70.784%;
+  --ctp-frappe-maroon: #ea999c;
+  --ctp-frappe-maroon-rgb: 234 153 156;
+  --ctp-frappe-maroon-hsl: 357.778 65.854% 75.882%;
+  --ctp-frappe-peach: #ef9f76;
+  --ctp-frappe-peach-rgb: 239 159 118;
+  --ctp-frappe-peach-hsl: 20.331 79.085% 70.000%;
+  --ctp-frappe-yellow: #e5c890;
+  --ctp-frappe-yellow-rgb: 229 200 144;
+  --ctp-frappe-yellow-hsl: 39.529 62.044% 73.137%;
+  --ctp-frappe-green: #a6d189;
+  --ctp-frappe-green-rgb: 166 209 137;
+  --ctp-frappe-green-hsl: 95.833 43.902% 67.843%;
+  --ctp-frappe-teal: #81c8be;
+  --ctp-frappe-teal-rgb: 129 200 190;
+  --ctp-frappe-teal-hsl: 171.549 39.227% 64.510%;
+  --ctp-frappe-sky: #99d1db;
+  --ctp-frappe-sky-rgb: 153 209 219;
+  --ctp-frappe-sky-hsl: 189.091 47.826% 72.941%;
+  --ctp-frappe-sapphire: #85c1dc;
+  --ctp-frappe-sapphire-rgb: 133 193 220;
+  --ctp-frappe-sapphire-hsl: 198.621 55.414% 69.216%;
+  --ctp-frappe-blue: #8caaee;
+  --ctp-frappe-blue-rgb: 140 170 238;
+  --ctp-frappe-blue-hsl: 221.633 74.242% 74.118%;
+  --ctp-frappe-lavender: #babbf1;
+  --ctp-frappe-lavender-rgb: 186 187 241;
+  --ctp-frappe-lavender-hsl: 238.909 66.265% 83.725%;
+  --ctp-frappe-text: #c6d0f5;
+  --ctp-frappe-text-rgb: 198 208 245;
+  --ctp-frappe-text-hsl: 227.234 70.149% 86.863%;
+  --ctp-frappe-subtext1: #b5bfe2;
+  --ctp-frappe-subtext1-rgb: 181 191 226;
+  --ctp-frappe-subtext1-hsl: 226.667 43.689% 79.804%;
+  --ctp-frappe-subtext0: #a5adce;
+  --ctp-frappe-subtext0-rgb: 165 173 206;
+  --ctp-frappe-subtext0-hsl: 228.293 29.496% 72.745%;
+  --ctp-frappe-overlay2: #949cbb;
+  --ctp-frappe-overlay2-rgb: 148 156 187;
+  --ctp-frappe-overlay2-hsl: 227.692 22.286% 65.686%;
+  --ctp-frappe-overlay1: #838ba7;
+  --ctp-frappe-overlay1-rgb: 131 139 167;
+  --ctp-frappe-overlay1-hsl: 226.667 16.981% 58.431%;
+  --ctp-frappe-overlay0: #737994;
+  --ctp-frappe-overlay0-rgb: 115 121 148;
+  --ctp-frappe-overlay0-hsl: 229.091 13.360% 51.569%;
+  --ctp-frappe-surface2: #626880;
+  --ctp-frappe-surface2-rgb: 98 104 128;
+  --ctp-frappe-surface2-hsl: 228.000 13.274% 44.314%;
+  --ctp-frappe-surface1: #51576d;
+  --ctp-frappe-surface1-rgb: 81 87 109;
+  --ctp-frappe-surface1-hsl: 227.143 14.737% 37.255%;
+  --ctp-frappe-surface0: #414559;
+  --ctp-frappe-surface0-rgb: 65 69 89;
+  --ctp-frappe-surface0-hsl: 230.000 15.584% 30.196%;
+  --ctp-frappe-base: #303446;
+  --ctp-frappe-base-rgb: 48 52 70;
+  --ctp-frappe-base-hsl: 229.091 18.644% 23.137%;
+  --ctp-frappe-mantle: #292c3c;
+  --ctp-frappe-mantle-rgb: 41 44 60;
+  --ctp-frappe-mantle-hsl: 230.526 18.812% 19.804%;
+  --ctp-frappe-crust: #232634;
+  --ctp-frappe-crust-rgb: 35 38 52;
+  --ctp-frappe-crust-hsl: 229.412 19.540% 17.059%;
+  --background: var(--ctp-frappe-mantle);
+  --foreground: var(--ctp-frappe-text);
+  --accent: var(--ctp-frappe-teal);
   --radius: 0;
   --font-size: 1rem;
   --line-height: 1.54em;
 }
 
-html {
-  box-sizing: border-box;
-}
-
-*,
-*:before,
-*:after {
-  box-sizing: inherit;
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  font-family:
-    "Fira Code",
-    Monaco,
-    "Ubuntu Mono",
-    Consolas,
-    monospace;
-  font-size: var(--font-size);
-  font-weight: 400;
-  line-height: var(--line-height);
-  background-color: var(--background);
-  color: var(--foreground);
-  text-rendering: optimizeLegibility;
-  font-variant-ligatures: contextual;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  margin: 0;
-  padding: 0;
-}
-
-h1 {
-  font-size: calc(var(--font-size) * 1.45);
-  letter-spacing: 0;
-}
-
-h2 {
-  font-size: calc(var(--font-size) * 1.35);
-  letter-spacing: 0;
-}
-
-h3 {
-  font-size: calc(var(--font-size) * 1.15);
-  letter-spacing: 0;
-}
-
-h4,
-h5,
-h6 {
-  font-size: calc(var(--font-size) * 1);
-  letter-spacing: 0;
-}
-
-h1, h2, h3, h4, h5, h6,
-p, ul, ol,
-img, figure, video,
-table {
-  margin: 25px 0;
-}
-
-a {
-  color: var(--accent);
-}
-
-button {
-  position: relative;
-  font: inherit;
-  font-weight: bold;
-  text-decoration: none;
-  text-align: center;
-  background: transparent;
-  color: var(--accent);
-  padding: 5px 18px;
-  border: 4px solid var(--accent);
-  border-radius: var(--radius);
-  transition: background 0.15s linear;
-  appearance: none;
-  cursor: pointer;
-  outline: none;
-}
-
-button:hover {
-  background: color-mix(in srgb, var(--accent) 15%, transparent);
-}
-
-button:focus-visible,
-a:focus-visible {
-  outline: 1px solid var(--accent);
-  outline-offset: 2px;
-}
-
-fieldset {
-  display: inline-block;
-  border: 2px solid var(--foreground);
-  border-radius: calc(var(--radius) * 1.6);
-  padding: 10px;
-}
-
-fieldset *:first-child {
-  margin-top: 0;
-}
-
-fieldset input,
-fieldset select,
-fieldset textarea,
-fieldset label,
-fieldset button {
-  margin-top: calc(var(--line-height) * 0.5);
-  width: 100%;
-}
-
-label {
-  display: inline-block;
-}
-
-label input {
-  margin-top: 0;
-}
-
-input,
-textarea,
-select {
-  background: transparent;
-  color: var(--foreground);
-  border: 1px solid var(--foreground);
-  border-radius: var(--radius);
-  padding: 10px;
-  font: inherit;
-  appearance: none;
-}
-
-input[type="checkbox"] {
-  width: auto;
-}
-
-input:focus-visible,
-input:active,
-textarea:focus-visible,
-textarea:active,
-select:focus-visible,
-select:active {
-  border-color: var(--accent);
-  outline: 1px solid var(--accent);
-  outline-offset: 2px;
-}
-
-input:active,
-textarea:active,
-select:active {
-  box-shadow: none;
-}
-
-select {
-  background-image: linear-gradient(
-      45deg,
-      transparent 50%,
-      var(--foreground) 50%
-    ),
-    linear-gradient(135deg, var(--foreground) 50%, transparent 50%);
-  background-position: calc(100% - 20px), calc(100% - 15px);
-  background-size:
-    5px 5px,
-    5px 5px;
-  background-repeat: no-repeat;
-  padding-right: 40px;
-}
-
-select option {
-  background: var(--background);
-}
-
-input[type="checkbox"],
-input[type="radio"] {
-  vertical-align: middle;
-  padding: 10px;
-  box-shadow: inset 0 0 0 3px var(--background);
-}
-
-input[type="radio"] {
-  display: inline-block;
-  width: 10px !important;
-  height: 10px !important;
-  border-radius: 20px;
-}
-
-input[type="checkbox"]:checked,
-input[type="radio"]:checked {
-  background: var(--accent);
-}
-
 img {
-  display: block;
-  max-width: 100%;
-  border: 8px solid var(--accent);
-  border-radius: var(--radius);
-  padding: 8px;
-  overflow: hidden;
-}
-
-figure img,
-figure video {
-  margin-bottom: 0;
-}
-
-figure figcaption {
-  background: var(--accent);
-  color: var(--background);
-  text-align: center;
-  font-size: 1em;
-  font-weight: normal;
-  margin-top: -8px;
-  border-radius: 0 0 var(--radius) var(--radius);
-}
-
-ul,
-ol {
-  margin-left: 4ch;
-  padding: 0;
-}
-
-ul ul,
-ul ol,
-ol ul,
-ol ol {
-  margin-top: 0;
-}
-
-li::marker {
-  color: var(--accent);
-}
-
-ul li,
-ol li {
-  position: relative;
-}
-
-code,
-kbd {
-  font-family:
-    "Fira Code",
-    /* Fallbacks */
-    Monaco,
-    Consolas,
-    Ubuntu Mono,
-    monospace !important;
-  font-feature-settings: "ss01", "ss02", "ss03", "ss04", "ss05", "ss06", "zero", "onum";
-  background: color-mix(in srgb, var(--foreground) 5%, transparent);
-  color: color-mix(in srgb, var(--foreground) 5%, var(--accent));
-  padding: 0 6px;
-  margin: 0 2px;
-  font-size: 0.95em;
-}
-
-code {
-  border: 1px solid color-mix(in srgb, var(--foreground) 25%, transparent);
-}
-
-kbd {
-  border-top: 1px solid color-mix(in srgb, var(--accent) 25%, transparent);
-  border-left: 1px solid var(--accent);
-  border-right: 1px solid var(--accent);
-  border-bottom: 4px solid var(--accent);
+  border: 4px solid var(--accent);
   border-radius: 4px;
-}
-
-code code {
-  background: transparent;
   padding: 0;
-  margin: 0;
 }
 
-pre {
-  tab-size: 4;
-  background: color-mix(in srgb, var(--foreground) 5%, transparent) !important;
-  color: color-mix(in srgb, var(--foreground) 5%, var(--accent));
-  padding: 10px 10px;
-  font-size: 0.95em !important;
-  overflow: auto;
-  border-radius: var(--radius);
-  border: 1px solid color-mix(in srgb, var(--foreground) 25%, transparent);
+/* Click and zoom image effect */
+@media screen and (min-width: 769px) {
+  .post-content input[type="checkbox"]:checked~label>img {
+    transform: scale(1.6);
+    cursor: zoom-out;
+    position: relative;
+    z-index: 999;
+  }
+
+  .post-content img.zoomCheck {
+    transition: transform 0.15s ease;
+    z-index: 999;
+    cursor: zoom-in;
+  }
 }
 
-pre code {
-  background: none !important;
-  margin: 0;
-  padding: 0;
-  font-size: inherit;
-  border: none;
+figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+
+  & figcaption {
+    font-size: 0.875rem;
+    font-style: italic;
+    text-align: center;
+  }
 }
 
-sup {
-  line-height: 0;
-}
-
-abbr {
-  position: relative;
-  text-decoration-style: wavy;
-  text-decoration-color: var(--accent);
-  cursor: help;
-}
-
-sub {
-  bottom: -0.25em;
-}
-
-sup {
-  top: -0.25em;
-}
-
-mark {
-  background: color-mix(in srgb, var(--accent) 45%, transparent);
-  color: var(--foreground);
-}
-
+/* block quote styling */
 blockquote {
-  position: relative;
-  border-top: 1px solid var(--accent);
-  border-bottom: 1px solid var(--accent);
-  margin: 0;
-  padding: 25px;
-}
+  width: 100vw;
+  margin-inline: calc(50% - 50vw);
+  padding: 1rem 0;
+  box-sizing: border-box;
 
-blockquote:before {
-  content: ">";
-  display: block;
-  position: absolute;
-  left: 0;
-  color: var(--accent);
-}
+  background-color: var(--ctp-frappe-crust);
+  border: 4px double var(--accent);
+  border-radius: 4px;
 
-blockquote p:first-child {
-  margin-top: 0;
-}
+  &>* {
+    max-width: 65ch;
+    margin-inline: auto;
+  }
 
-blockquote p:last-child {
-  margin-bottom: 0;
-}
+  &::before {
+    content: ">";
+    position: absolute;
+    left: calc(50vw - 32.5ch - 2rem); /* Position relative to content area */
+    color: var(--accent);
+  }
 
-table {
-  table-layout: auto;
-  border-collapse: collapse;
-}
+  & *:first-child {
+    margin-top: 0;
+  }
 
-table,
-th,
-td {
-  border: 2px solid var(--foreground);
-  padding: 10px;
-}
-
-th {
-  border-style: solid;
-  color: var(--foreground);
-  text-align: left;
-  text-transform: uppercase;
-  letter-spacing: 0.04em;
-}
-
-hr {
-  width: 100%;
-  border: none;
-  background: var(--accent);
-  height: 2px;
-}
-
-/* Bold elements */
-
-h1, h2, h3, h4, h5, h6,
-b, strong,
-th,
-button {
-  font-weight: 600;
+  & *:last-child {
+    margin-bottom: 0;
+  }
 }

@@ -8,5 +8,6 @@
   "cssTheme": "AnuPpuccin",
   "enabledCssSnippets": [
     "prismjs-latte"
-  ]
+  ],
+  "baseFontSize": 19
 }

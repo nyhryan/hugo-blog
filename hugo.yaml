@@ -1,8 +1,9 @@
 baseURL: https://ataidev.cc/hugo-blog/
-defaultContentLanguage: ko
-languageCode: ko-KR
+defaultContentLanguage: en
+languageCode: en-US
 title: ATAI's Blog
 theme: terminal
+enableRobotsTXT: true
 
 security:
   exec:
@@ -28,9 +29,6 @@ module:
   imports:
     - path: github.com/panr/hugo-theme-terminal/v4
   replacements: "github.com/panr/hugo-theme-terminal/v4 -> terminal"
-  mounts:
-    - source: attachments
-      target: static/attachments
 
 params:
   contentTypeName: posts

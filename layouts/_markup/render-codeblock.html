@@ -1,0 +1,17 @@
+{{ $id := delimit (shuffle (seq 1 9)) "" }}
+{{ $open := .Attributes.open }}
+{{ $title := .Attributes.title }}
+{{ $trInner := trim .Inner "\n" }}
+
+{{- if $title -}}
+    <details class="collapsable-code" {{ if ne $open false -}} open {{- end }} >
+    <summary title="Click to interact">
+        {{- if $title }}
+            <span class="collapsable-code__title">{{ $title | markdownify }}</span>
+        {{ end -}}
+    </summary>
+    {{- transform.Highlight $trInner .Type .Options -}}
+    </details>
+{{ else }}
+    {{- transform.Highlight $trInner .Type .Options -}}
+{{- end -}}

@@ -1,0 +1,16 @@
+{{ $image := resources.Get (urls.Parse .Destination).Path }}
+
+{{- if and (ne .Page.Kind "section") (.Page.Section ) }}
+  {{- $random := (substr (md5 .Destination) 0 5) }}
+  <figure class="center" role="figure" aria-label="{{- .Text -}}">
+    <input type="checkbox" id="zoomCheck-{{$random}}" hidden>
+    <label for="zoomCheck-{{$random}}">
+      <img class="zoomCheck" loading="lazy" decoding="async"
+          src="{{- $image.RelPermalink | safeURL -}}" alt="{{- .Text -}}"/>
+    </label>
+    <figcaption>{{- .Text -}}</figcaption>
+  </figure>
+{{- else }}
+  <img loading="lazy" decoding="async"
+       src="{{- $image.RelPermalink | safeURL -}}" alt="{{- .Text -}}"/>
+{{- end }}

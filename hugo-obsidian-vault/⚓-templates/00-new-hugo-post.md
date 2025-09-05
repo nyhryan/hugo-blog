@@ -5,7 +5,7 @@ const titleSlug = title.toLowerCase().trim()
         .replace(/[^a-z0-9\s-]/g,  " ").trim()
         .replace(/[\s-]+/g, "-");
 await tp.file.rename(titleSlug);
-await tp.file.move(`/🦊-hugo-blog/posts/${titleSlug}/index`);
+await tp.file.move(`/🦊-hugo-blog/posts/${titleSlug}`);
 -%>
 ---
 title: <% title %>
