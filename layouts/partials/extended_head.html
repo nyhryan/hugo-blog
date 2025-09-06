@@ -5,8 +5,8 @@ To add an extended head section, please create
 
 <meta name="naver-site-verification" content="8b94634fcdf2a0e1f740932bcbcabfd3099019c5" />
 
+{{ if eq .Section "posts" }}
 <script type="application/ld+json">
-{{- if eq .Section "posts" -}}
 {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
@@ -26,8 +26,10 @@ To add an extended head section, please create
   },
   "description": {{ .Summary | plainify | safeHTML }},
   "keywords": [{{ range $i, $e := .Params.tags }}{{ if $i }}, {{ end }}{{ $e }}{{ end }}]
-},
-{{- end -}}
+}
+</script>
+{{ end }}
+<script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Organization",
