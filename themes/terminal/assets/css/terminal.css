@@ -131,7 +131,8 @@ blockquote {
   box-sizing: border-box;
 
   background-color: var(--ctp-frappe-crust);
-  border: 4px double var(--accent);
+  border-top: 4px double var(--accent);
+  border-bottom: 4px double var(--accent);
   border-radius: 4px;
 
   &>* {
