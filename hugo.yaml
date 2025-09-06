@@ -16,6 +16,10 @@ security:
       - ^tailwindcss$
       - ^code$
 
+privacy:
+  youtube:
+    privacyEnhanced: true
+
 markup:
   goldmark:
     renderer:
@@ -31,6 +35,7 @@ module:
   replacements: "github.com/panr/hugo-theme-terminal/v4 -> terminal"
 
 params:
+  author: ATAI
   contentTypeName: posts
   showMenuItems: 2
   showLanguageSelector: false
@@ -40,8 +45,9 @@ params:
   showLastUpdated: false
   Toc: true
   twitter:
-    creator: ""
-    site: ""
+    creator: "@Rhy_Chang_Life"
+    site: "@Rhy_Chang_Life"
+  github: "nyhryan"
 
 languages:
   en:
@@ -72,9 +78,6 @@ languages:
         - identifier: showcase
           name: Showcase
           url: /showcase
-        - identifier: categories
-          name: Categories
-          url: /categories
         - identifier: tags
           name: Tags
           url: /tags
@@ -107,9 +110,6 @@ languages:
         - identifier: showcase
           name: 쇼케이스
           url: /showcase
-        - identifier: categories
-          name: 카테고리
-          url: /categories
         - identifier: tags
           name: 태그
           url: /tags

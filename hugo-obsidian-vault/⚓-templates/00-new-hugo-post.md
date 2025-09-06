@@ -10,7 +10,7 @@ await tp.file.move(`/🦊-hugo-blog/posts/${titleSlug}`);
 ---
 title: <% title %>
 description:
-date: <% tp.file.creation_date("YYYY-MM-DDTHH:mm:ssZ")%>
+date: <% tp.file.creation_date("YYYY-MM-DD")%>
 draft: false
 showFullContent: false
 tags:

@@ -1,17 +1,13 @@
 ---
 title: Write a blog with Hugo and Obsidian
 description: Make your own blog with Hugo and Obsidian!
-date: 2025-08-24T17:28:42+09:00
+date: 2025-08-24
 keywords:
   - guide
 tags:
   - hugo
+showFullContent: false
 ---
-
-> References:
-> - [oscarmlage - Hugo and Obsidian](https://oscarmlage.com/posts/hugo-and-obsidian/)
-> - [4rkal - My Obsidian + Hugo blogging setup](https://4rkal.com/posts/obsidian-hugo/)
-> - [Hugomods - Docker](https://docker.hugomods.com/docs/introduction/)
 
 ## 0. Prerequisite
 
@@ -26,6 +22,8 @@ docker run -v ${PWD}:src \
 ```
 
 To create Hugo site's folder, open up the terminal and run the following `docker run` command. It will create a new folder `<blog-dir-name>` having all the needed Hugo site files generated.
+
+<!--more-->
 
 ```yaml {title="compose.yaml"}
 name: hugo-blog
@@ -60,11 +58,11 @@ Then, open up the terminal and run `docker compose up -d`.
 
 Create a new Obsidian vault. I have created one inside my hugo site repository, named `hugo-obsidian-vault`.
 
-![&#96;content/&#96; to &#96;(obsidian vault)/🦊-hugo-blog&#96; symlink](attachments/Pasted%20image%2020250904235711.png)
+![&#96;content/posts&#96; to &#96;(obsidian vault)/posts&#96; symlink](attachments/Pasted%20image%2020250906153203.png)
 
-`content` directory in the Hugo site we made earlier needs to be linked to the directory inside Obsidian vault. Create a symbolic link using your operating system's command.
+`posts` directory in the Hugo site we made earlier needs to be linked to the directory inside Obsidian vault. Create a symbolic link using your operating system's command.
 
-![&#96;assets/attachments/&#96; to &#96;(obsidian vault)/attachments&#96; symlink](attachments/Pasted%20image%2020250905011121.png)
+![&#96;assets/attachments/&#96; to &#96;(obsidian vault)/attachments&#96; symlink](attachments/Pasted%20image%2020250906153352.png)
 
 Then I have created another symlink; `assets/attachments` linked to `attachments` folder inside Obsidian vault. All of attachment files will be located under `assets/attachments` now.
 
@@ -72,10 +70,9 @@ Then I have created another symlink; `assets/attachments` linked to `attachments
 
 ```
 .
-└── content/
-    └── posts/
-        ├── my-first-post.md
-        └── my-second-post.md
+└── posts/
+	├── my-first-post.md
+	└── my-second-post.md
 ```
 
 Hugo follows the structure above. Each post's title needs to be sluggified.
@@ -102,7 +99,7 @@ await tp.file.move(`/🦊-hugo-blog/posts/${titleSlug}`);
 ---
 title: <% title %>
 description:
-date: <% tp.file.creation_date("YYYY-MM-DDTHH:mm:ssZ")%>
+date: <% tp.file.creation_date("YYYY-MM-DD")%>
 draft: false
 showFullContent: false
 tags:
@@ -119,7 +116,7 @@ Use `Create new note from template` and select the template you've just created 
 
 Obsidian will prompt a new title. This is what `tp.system.prompt(...)` does!
 
-![](attachments/Pasted%20image%2020250905023303.png)
+![](attachments/Pasted%20image%2020250906153311.png)
 
 When you type the title, Templater will create a new note. (I have manually moved the new note from `posts/` to `posts/hugo` folder.)
 
@@ -150,7 +147,7 @@ Images in the `assets/attachments` can be processed using [Asset Pipelines](http
 {{- end }}
 ```
 
-```css {open=false, title="themes/terminal/assets/css/terminal.css"}
+```css {open=false, title="assets/css/terminal.css"}
 /* Placeholder file for your custom settings. */
 /* You can get the color scheme variables from https://panr.github.io/terminal-css/ */
 
@@ -185,3 +182,8 @@ figure {
 ```
 
 I referred to this article([Image Zoom-In effect with HUGO](https://adityatelange.in/blog/hugo-image-zoom-in/)) to make images clickable and zoomable.
+
+> References:
+> - [oscarmlage - Hugo and Obsidian](https://oscarmlage.com/posts/hugo-and-obsidian/)
+> - [4rkal - My Obsidian + Hugo blogging setup](https://4rkal.com/posts/obsidian-hugo/)
+> - [Hugomods - Docker](https://docker.hugomods.com/docs/introduction/)

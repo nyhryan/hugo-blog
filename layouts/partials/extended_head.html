@@ -4,3 +4,38 @@ To add an extended head section, please create
 -->
 
 <meta name="naver-site-verification" content="8b94634fcdf2a0e1f740932bcbcabfd3099019c5" />
+
+<script type="application/ld+json">
+{{- if eq .Section "posts" -}}
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": {{ .Title }},
+  "datePublished": {{ .PublishDate }},
+  "dateModified": {{ .Lastmod }},
+  "author": {
+    "@type": "Person",
+    "name": {{ .Site.Params.author }}
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage"
+  },
+  "publisher": {
+    "@type": "Person",
+    "name": {{ .Site.Params.author }}
+  },
+  "description": {{ .Summary | plainify | safeHTML }},
+  "keywords": [{{ range $i, $e := .Params.tags }}{{ if $i }}, {{ end }}{{ $e }}{{ end }}]
+},
+{{- end -}}
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": {{ .Site.Title }},
+  "url": {{ .Site.BaseURL }},
+  "sameAs": [
+    "https://twitter.com/{{ .Site.Params.twitter.site }}",
+    "https://github.com/{{ .Site.Params.github }}"
+  ]
+}
+</script>

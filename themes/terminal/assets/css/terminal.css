@@ -135,8 +135,13 @@ blockquote {
   border-bottom: 4px double var(--accent);
   border-radius: 4px;
 
-  &>* {
+  &>*:not(div:has(>iframe)) {
     max-width: 65ch;
+    margin-inline: auto;
+  }
+
+  &>div:has(>iframe) {
+    max-width: 80%;
     margin-inline: auto;
   }
 
@@ -155,3 +160,5 @@ blockquote {
     margin-bottom: 0;
   }
 }
+
+div>iframe{}
