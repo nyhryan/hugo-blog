@@ -127,7 +127,7 @@ figure {
 blockquote {
   width: 100vw;
   margin-inline: calc(50% - 50vw);
-  padding: 1rem 0;
+  padding-block: 1rem;
   box-sizing: border-box;
 
   background-color: var(--ctp-frappe-crust);
