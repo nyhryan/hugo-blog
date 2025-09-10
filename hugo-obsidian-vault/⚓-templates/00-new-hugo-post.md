@@ -5,7 +5,6 @@ const titleSlug = title.toLowerCase().trim()
         .replace(/[^a-z0-9\s-]/g,  " ").trim()
         .replace(/[\s-]+/g, "-");
 await tp.file.rename(titleSlug);
-await tp.file.move(`/🦊-hugo-blog/posts/${titleSlug}`);
 -%>
 ---
 title: <% title %>
@@ -13,7 +12,7 @@ description:
 date: <% tp.file.creation_date("YYYY-MM-DD")%>
 draft: false
 showFullContent: false
-tags:
+tags: []
 ---
 
 # <% title %>

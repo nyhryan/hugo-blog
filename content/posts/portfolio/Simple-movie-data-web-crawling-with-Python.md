@@ -1,7 +1,7 @@
 ---
 title: Simple movie data web crawling with Python
 description: 2022-1) `A wise daily life of Python with RPA` course project
-date: 2023-08-19
+date: 2023-08-19T14:35:21+0900
 tags:
   - portfolio
 toc: false

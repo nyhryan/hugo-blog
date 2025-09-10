@@ -41,7 +41,7 @@
 {{ end }}
 
 <!-- OG data -->
-<meta property="og:locale" content="{{ $.Site.Language.Lang }}" />
+<meta property="og:locale" content="{{ replace $.Site.Language.LanguageCode `-` `_` }}">
 <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}" />
 <meta property="og:title" content="{{ if .IsHome }}{{ $.Site.Title }}{{ else }}{{ .Title }}{{ end }}">
 <meta property="og:description" content="{{ if .IsHome }}{{ $.Site.Params.Subtitle }}{{ else if .Description}}{{ .Description | plainify }}{{ else }}{{ .Summary | plainify }}{{ end }}" />
@@ -62,7 +62,7 @@
   <meta property="article:section" content="{{ . }}" />
 {{ end }}
 {{ if isset .Params "date" }}
-  <meta property="article:published_time" content="{{ time .Date }}" />
+  <meta property="article:published_time" content="{{ .Date.Format `2006-01-02T15:04:05-0700` }}" />
 {{ end }}
 
 <!-- RSS -->

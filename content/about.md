@@ -1,7 +1,7 @@
 ---
 title: About
 description: About me
-date: 2025-08-24
+date: 2025-08-24T20:30:12+09:00
 toc: false
 showFullContent: false
 ---

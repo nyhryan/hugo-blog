@@ -1,7 +1,7 @@
 ---
 title: Dodge game with C and WIN32 API
 description: 2022-2) `Programming Lab` course term project
-date: 2023-08-19
+date: 2023-08-19T15:12:33+0900
 tags:
   - portfolio
 toc: false

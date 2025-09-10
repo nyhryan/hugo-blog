@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "b4fe04e38703ee49",
+        "id": "c6e651e0516b05e3",
         "type": "tabs",
         "children": [
           {
-            "id": "3dea92bc81b552bf",
+            "id": "2988c7aa7f29f78b",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🦊-hugo-blog/posts/hugo/write-a-blog-with-hugo-and-obsidian/index.md",
+                "file": "posts/hugo/write-a-blog-with-hugo-and-obsidian.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for index"
+              "title": "Backlinks for write-a-blog-with-hugo-and-obsidian"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "hugo-blog/posts/my-first-post/index.md",
+                "file": "posts/hugo/write-a-blog-with-hugo-and-obsidian.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from index"
+              "title": "Outgoing links from write-a-blog-with-hugo-and-obsidian"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "hugo-blog/posts/my-first-post/index.md",
+                "file": "posts/hugo/write-a-blog-with-hugo-and-obsidian.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of index"
+              "title": "Outline of write-a-blog-with-hugo-and-obsidian"
             }
           },
           {
@@ -164,9 +164,21 @@
               "icon": "lucide-archive",
               "title": "All properties"
             }
+          },
+          {
+            "id": "24678c21c9fa9e9e",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "posts/hugo/write-a-blog-with-hugo-and-obsidian.md"
+              },
+              "icon": "lucide-info",
+              "title": "File properties for write-a-blog-with-hugo-and-obsidian"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -185,8 +197,19 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "3dea92bc81b552bf",
+  "active": "2988c7aa7f29f78b",
   "lastOpenFiles": [
+    "posts/test/hello.en.md",
+    "posts/test/hello.ko copy.md",
+    "posts/test copy/hello.ko.md",
+    "posts/test copy",
+    "⚓-templates/00-new-hugo-post.md",
+    "posts/test/hello.md",
+    "posts/test/hello.ko.md",
+    "🦊-hugo-blog/posts/hello-ko.md",
+    "🦊-hugo-blog/posts",
+    "🦊-hugo-blog",
+    "posts/test",
     "posts/hugo/write-a-blog-with-hugo-and-obsidian.md",
     "attachments/Pasted image 20250906153352.png",
     "attachments/Pasted image 20250906153311.png",
@@ -195,7 +218,6 @@
     "posts/portfolio",
     "posts",
     "🦊-hugo-blog/posts/portfolio/Simple-movie-data-web-crawling-with-Python.md",
-    "⚓-templates/00-new-hugo-post.md",
     "Untitled.md",
     "⚓-templates/time.md",
     "attachments/Pasted image 20250824182242.png",
@@ -210,12 +232,8 @@
     "🦊-hugo-blog/about.md",
     "🦊-hugo-blog/posts/hugo/write-a-blog-with-hugo-and-obsidian",
     "🦊-hugo-blog/posts/hugo",
-    "🦊-hugo-blog/posts",
-    "🦊-hugo-blog",
     "새 폴더",
     "🦊-hugo-blog/posts/hello/index.md",
-    "🦊-hugo-blog/posts/hello",
-    "20-🦊-hugo-blog/posts/hello",
     "20-🦊-hugo-blog/tags.md",
     "20-🦊-hugo-blog/posts/Untitled.md",
     "20-🦊-hugo-blog/posts/new-post/index.md",

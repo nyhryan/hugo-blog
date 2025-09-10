@@ -51,8 +51,10 @@ params:
 
 languages:
   en:
+    languageCode: en-US
     languageName: English
     title: ATAI's Blog
+    weight: 1
     params:
       subtitle: A simple, retro theme for Hugo
       owner: ""
@@ -85,6 +87,7 @@ languages:
     languageCode: ko-KR
     languageName: 한국어
     title: ATAI's Blog
+    weight: 2
     params:
       subtitle: Hugo의 심플한 복고풍 테마
       owner: ""

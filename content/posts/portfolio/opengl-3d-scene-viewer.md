@@ -1,7 +1,7 @@
 ---
 title: Simple OpenGL 3D Scene viewer
 description: Studied basics of OpenGL.
-date: 2024-02-18
+date: 2024-02-18T23:59:15+09:00
 tags:
   - portfolio
 toc: false

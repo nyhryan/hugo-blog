@@ -1,7 +1,7 @@
 ---
 title: Write a blog with Hugo and Obsidian
 description: Make your own blog with Hugo and Obsidian!
-date: 2025-08-24
+date: 2025-08-24T17:28:42+09:00
 keywords:
   - guide
 tags:

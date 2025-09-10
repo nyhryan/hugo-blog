@@ -1,7 +1,7 @@
 ---
 title: Simple Discord bot with Discord.js
 description: Discord bot written in JavaScript.
-date: 2024-02-18
+date: 2024-02-18T23:45:05+0900
 tags:
   - portfolio
 toc: false
